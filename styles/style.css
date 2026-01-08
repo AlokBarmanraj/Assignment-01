@@ -67,6 +67,8 @@
     padding: 154.5px 0 179.5px;
 }
 .banner-article{
+    max-width: 1600px;
+    margin: 0 auto;
     text-align: center;
 }
 .paragraph p{
