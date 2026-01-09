@@ -11,6 +11,10 @@
 
 
 /* Navbar */
+header{
+    top: 0;
+    position: sticky;
+}
 .navbar-item{
     background-color:   rgba(255, 255, 255, 1);
 }
@@ -33,7 +37,7 @@
 }
 .menu a{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
 }
@@ -75,7 +79,7 @@
     font-size: 16px;
     font-weight: 500;
     color: rgba(70, 145, 101, 1);
-    max-width: 229px;
+    max-width: 235px;
     text-align: center;
     margin: 0 auto 16px;
     padding: 8px 12px;
@@ -119,4 +123,177 @@
 .my-btn:hover{
     color: #30B868;
     border: 1px solid #30B868;
+}
+
+
+/* Notes don't fail, Structure does */
+.structure-does{
+    max-width: 1600px;
+    margin: 0 auto 120px;
+    padding: 89px 0 0;
+}
+.structure-header{
+    text-align: center;
+}
+.structure-header h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--Color, rgba(0, 25, 49, 1));
+}
+.structure-header p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 53px;
+    color: rgba(98, 115, 130, 1);
+}
+.structure-card{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.structure-card-list img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 1000px;
+    margin-bottom: 16px
+}
+.structure-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--Color, rgba(0, 25, 49, 1));
+}
+.structure-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+}
+.structure-card-list{
+    max-width: 380px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 55px 24px;
+    border-radius: 8px;
+}
+.structure-card-list:hover{
+    background-color: #30B868;
+}
+
+
+/* Your second brain, structured by design */
+.structured-by-design{
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 120px;
+    gap: 60px;
+}
+.by-design-header h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    margin-bottom: 16px;
+}
+.by-design-header h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--Color, rgba(0, 25, 49, 1));
+    margin-bottom: 16px;
+}
+.by-design-header p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 40px;
+}
+.icon-paragraph{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+}
+.icon-paragraph img{
+    margin-bottom: 16px;
+}
+.icon-paragraph h6{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: rgba(0, 25, 49, 1);
+}
+
+
+/* Ready to think more clearly */
+.clearly{
+    max-width: 1600px;
+    margin: 0 auto 120px;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.clearly-header{
+    padding: 80px 0 66px;
+}
+.clearly-header h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+}
+.clearly-header p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin: 16px 0 24px ;
+}
+
+
+/* Footer */
+.footer-all{
+    background-color: #001931;
+}
+.footer-design{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.footer-design-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 80px;
+}
+.footer-design-1 img{
+    max-width: 1039px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.social-icon{
+    display: flex;
+    gap: 16px;
+    color: #001931;
+}
+.social-icon i{
+    padding: 3px 0;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.social-icon i:hover{
+    color: #FFFFFF;
+    background-color: #30B868;
+}
+hr{
+    margin: 30px 0 30px;
+    border: 1px solid #627382;
+}
+.footer-end p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    text-align: center;
 }
